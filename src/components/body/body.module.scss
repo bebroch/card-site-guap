@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 4vh;
+
+    width: auto;
+    margin: 0 10vw;
+    margin-top: 15vh;
+
+    @media (max-width: 1300px) {
+        margin: 0 2vh;
+        margin-top: 3vh;
+    }
+
+    .card {
+        font-family: Calibri;
+        font-size: 20px;
+        text-align: center;
+
+        row-gap: 5px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-weight: bold;
+
+        .images {
+            max-height: 300px;
+            border-radius: 15px;
+
+            @media (max-width: 768px) {
+                max-height: 220px;
+            }
+        }
+    }
+}

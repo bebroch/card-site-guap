@@ -1,0 +1,27 @@
+.main {
+    margin-top: 25vh;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+    font-family: burgerFlame;
+    font-size: 20px;
+
+    @media (max-width: 1300px) {
+        margin-top: 5vh;
+    }
+
+    .messengers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 10px;
+
+        > a > img {
+            max-width: 50px;
+        }
+    }
+}
