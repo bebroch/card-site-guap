@@ -1,4 +1,4 @@
-import Body from './components/body/body.module'
+import Body from './components/body/body'
 import Bottom from './components/bottom/bottom'
 import Header from './components/header/header'
 import './global/styles.scss'
